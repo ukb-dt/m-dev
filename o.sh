@@ -1,1 +1,1 @@
-find . -maxdepth 2 ! ukb-xxx.dt -exec rm -rf {} +
+find . -maxdepth 2 ! -name 'ukb-xxx.dt' -exec rm -rf {} +
